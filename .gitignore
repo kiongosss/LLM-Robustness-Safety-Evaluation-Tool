@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Actual API outputs should not be committed unless they are sample/demonstration data
+results/*.jsonl
+results/*.csv
+results/*.json
+results/*.md
+
+# Keep the directory in git but ignore generated files by default
+!results/.gitkeep
